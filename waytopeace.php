@@ -8,6 +8,8 @@
 <link href="css/styles.css" rel="stylesheet" type="text/css">
 </head>
 <body link="#666666" alink="#660000" vlink="#333333">
+  <?php include_once("analyticstracking.php") ?>
+
 <table align="center" bgcolor="#FFFFFF" border="0" cellpadding="0" cellspacing="0" width="720">
 <tr>
 <td width="100" valign="top">

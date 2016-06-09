@@ -22,23 +22,25 @@
 <link rel="stylesheet" href="http://www.worldpeacesociety.org/css/styles.css" type="text/css" media="all" title="Default">
 </head>
 <body link="#666666" alink="#660000" vlink="#333333">
+  <?php include_once("analyticstracking.php") ?>
+
 <table align="center" bgcolor="#FFFFFF" cellpadding="0" border="0" cellspacing="0" width="720">
-  <tr bgcolor="#FFFFFF" valign="top"> 
+  <tr bgcolor="#FFFFFF" valign="top">
     <td>&nbsp;</td>
-    <td align="center" colspan="4" height="115"> 
+    <td align="center" colspan="4" height="115">
       <table border="0" cellpadding="0" cellspacing="0" width="720">
-		<tr> 
+		<tr>
 			<td align="left" width="620" height="74"><center>
-		        
+
 		        <img src="/images/worldpeacesociety_logo.jpg" alt="World Peace Society Logo" title="World Peace Society Logo" border="0" hspace="0" vspace="0" width="150" height="146">
 <br>
 		        <img src="/images/worldpeacesociety_banner500.jpg" alt="World Peace Society(r)" title="World Peace Society(r)" border="0" hspace="0" vspace="0" width="500" height="63">
 			</center></td>
-		</tr> 
+		</tr>
       </table>
     </td>
   </tr>
-  <tr> 
+  <tr>
     <td valign="top" width="150">
 	<table align="center" border="0" cellpadding="0" cellspacing="0">
 	<tr>

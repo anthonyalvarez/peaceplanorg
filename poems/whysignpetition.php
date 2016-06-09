@@ -6,31 +6,31 @@ array_push($poem, "WHY YOU SHOULD SIGN THE PETITION FOR PEACE");
 array_push($poem, "by");
 array_push($poem, "David Levene");
 array_push($poem, "");
-array_push($poem, "Sign this Petition For Peace"); 
+array_push($poem, "Sign this Petition For Peace");
 array_push($poem, "Improve the outlook in the Middle East");
-array_push($poem, "And start a world-wide probe"); 
-array_push($poem, "To end war around the globe."); 
+array_push($poem, "And start a world-wide probe");
+array_push($poem, "To end war around the globe.");
 array_push($poem, "");
-array_push($poem, "We want all leaders to know"); 
-array_push($poem, "We are not happy with the status quo."); 
-array_push($poem, "So do your part"); 
-array_push($poem, "Add your name to a promising start"); 
+array_push($poem, "We want all leaders to know");
+array_push($poem, "We are not happy with the status quo.");
+array_push($poem, "So do your part");
+array_push($poem, "Add your name to a promising start");
 array_push($poem, "");
-array_push($poem, "Make World Peace Now and Forever your theme"); 
-array_push($poem, "And soon you will be able to share"); 
-array_push($poem, "In the world's most beautiful dream."); 
+array_push($poem, "Make World Peace Now and Forever your theme");
+array_push($poem, "And soon you will be able to share");
+array_push($poem, "In the world's most beautiful dream.");
 array_push($poem, "");
-array_push($poem, "I signed - how about you"); 
-array_push($poem, "Think what this petition can do."); 
-array_push($poem, "If each and everyone"); 
-array_push($poem, "Encouraged only a few more"); 
+array_push($poem, "I signed - how about you");
+array_push($poem, "Think what this petition can do.");
+array_push($poem, "If each and everyone");
+array_push($poem, "Encouraged only a few more");
 array_push($poem, "");
-array_push($poem, "It wouldn't be very long"); 
-array_push($poem, "Until we ended war."); 
-array_push($poem, "So place your imprint on world history"); 
+array_push($poem, "It wouldn't be very long");
+array_push($poem, "Until we ended war.");
+array_push($poem, "So place your imprint on world history");
 array_push($poem, "And reap the rewards of a great opportunity.");
 array_push($poem, "");
-array_push($poem, "Copyright 2006 Growth Network. All rights reserved."); 
+array_push($poem, "Copyright 2006 Growth Network. All rights reserved.");
 array_push($poem, "");
 array_push($poem, "");
 array_push($poem, "");
@@ -44,9 +44,9 @@ if ($_REQUEST['action'] == "send") {
      $message = trim($_REQUEST["message"]);
      $fromemail = strtolower(trim($_REQUEST["fromemail"]));
      $toemail = strtolower(trim($_REQUEST["toemail"]));
-     
+
      $body = join("\n", $poem);
-     mail($toemail, "Thought this might interest you", $body, "From: ".$fromemail . "\r\nBcc: worldpeace.society@verizon.net\r\n"); 
+     mail($toemail, "Thought this might interest you", $body, "From: ".$fromemail . "\r\nBcc: worldpeace.society@verizon.net\r\n");
      $submitted = 1;
 }
 ?>
@@ -60,18 +60,19 @@ if ($_REQUEST['action'] == "send") {
 </head>
 
 <body link="#666666" alink="#660000" vlink="#333333">
+  <?php include_once("analyticstracking.php") ?>
 
 
 
 <table width="720" border="0" cellspacing="0" align="center" cellpadding="0" bgcolor="#FFFFFF">
 
-  <tr> 
+  <tr>
     <td width="100" valign="top">
 	<table border="0" cellpadding="0" cellspacing="0" align="center">
 	<tr>
 	    <td width="100"><img src="images/blank.gif" width="1" height="85" border="0"></td>
 	</tr>
-	<?php 
+	<?php
 		include("../leftmenu2.html");
 	?>
 	</table>
@@ -221,7 +222,7 @@ include("poems_selection.html");
 	</table>
 	</td>
 	<td width="10"><img src="../images/blank.gif" width="10" border="0"></td>
-    <td valign="top" width="450" align="left"> 
+    <td valign="top" width="450" align="left">
       <p><br>
    </td>
   </tr>
@@ -230,7 +231,7 @@ include("poems_selection.html");
 <span class="footer">
 
 
-	<?php 
+	<?php
 		include("../bottommenu2.html");
 	?>
 

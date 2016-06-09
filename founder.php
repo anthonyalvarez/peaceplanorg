@@ -8,16 +8,17 @@
 </head>
 
 <body link="#666666" alink="#660000" vlink="#333333">
+  <?php include_once("analyticstracking.php") ?>
 
 
 
 <table width="720" border="0" cellspacing="0" align="center" cellpadding="0" bgcolor="#FFFFFF">
 
 
-  <tr> 
+  <tr>
     <td width="100" valign="top">
 	<table border="0" cellpadding="0" cellspacing="0" align="center">
-	<?php 
+	<?php
 		include("leftmenu.html");
 	?>
 	</table>
@@ -26,7 +27,7 @@
     <td width="720" valign="top" align="left">
 	<table width="100%" border="0" cellpsacing="0" cellpadding="0">
 <center />
-		        
+
 <img src="images/blank.gif" width="200" height="1" alt="World Peace Society" border="0">
 <br>
 <center />
@@ -50,7 +51,7 @@
 <br>
 <br>
 <br>
-<b>NOTE:</b> David Levene, who is the Creator, Founder, and Managing Director of World Peace Society, is still very well, energetic, and active - but he is 80 years old. He is very anxious to have some organization, group, or individual be in a position to direct World Peace Society to fulfill its mission long after he is gone. Anybody of prestige and means  who can serve this role is invited to contact  us so that we can discuss all possibilities. 
+<b>NOTE:</b> David Levene, who is the Creator, Founder, and Managing Director of World Peace Society, is still very well, energetic, and active - but he is 80 years old. He is very anxious to have some organization, group, or individual be in a position to direct World Peace Society to fulfill its mission long after he is gone. Anybody of prestige and means  who can serve this role is invited to contact  us so that we can discuss all possibilities.
 <br>
 <br>
 <br>
@@ -68,7 +69,7 @@
 	</table>
 	</td>
 	<td width="10"><img src="images/blank.gif" width="10" border="0"></td>
-    <td valign="top" width="450" align="left"> 
+    <td valign="top" width="450" align="left">
       <p><br>
 
 
@@ -80,7 +81,7 @@
 <span class="footer">
 
 
-	<?php 
+	<?php
 		include("bottommenu.html");
 	?>
 

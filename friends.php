@@ -8,16 +8,17 @@
 </head>
 
 <body link="#666666" alink="#660000" vlink="#333333">
+  <?php include_once("analyticstracking.php") ?>
 
 
 
 <table width="720" border="0" cellspacing="0" align="center" cellpadding="0" bgcolor="#FFFFFF">
 
 
-  <tr> 
+  <tr>
     <td width="100" valign="top">
 	<table border="0" cellpadding="0" cellspacing="0" align="center">
-	<?php 
+	<?php
 		include("leftmenu.html");
 	?>
 	</table>
@@ -26,7 +27,7 @@
     <td width="720" valign="top" align="left">
 	<table width="100%" border="0" cellpsacing="0" cellpadding="0">
 <center />
-		        
+
 	<tr>
 	<td align="center">
 <img src="images/worldpeacesociety_logo.jpg" align="center" alt="World Peace Society" border="0">
@@ -194,7 +195,7 @@ Humanist Advocate
 	</table>
 	</td>
 	<td width="10"><img src="images/blank.gif" width="10" border="0"></td>
-    <td valign="top" width="450" align="left"> 
+    <td valign="top" width="450" align="left">
       <p><br>
 
 
@@ -206,7 +207,7 @@ Humanist Advocate
 <span class="footer">
 
 
-	<?php 
+	<?php
 		include("bottommenu.html");
 	?>
 

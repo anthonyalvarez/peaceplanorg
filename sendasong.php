@@ -8,16 +8,16 @@
 </head>
 
 <body link="#666666" alink="#660000" vlink="#333333">
-
+  <?php include_once("analyticstracking.php") ?>
 
 
 <table width="720" border="0" cellspacing="0" align="center" cellpadding="0" bgcolor="#FFFFFF">
 
 
-  <tr> 
+  <tr>
     <td width="100" valign="top">
 	<table border="0" cellpadding="0" cellspacing="0" align="center">
-	<?php 
+	<?php
 		include("leftmenu.html");
 	?>
 	</table>
@@ -26,7 +26,7 @@
     <td width="720" valign="top" align="left">
 	<table width="100%" border="0" cellpsacing="0" cellpadding="0">
 <center />
-		        
+
 	<tr>
 	<td align="center">
 <img src="images/worldpeacesociety_logo.jpg" align="center" alt="World Peace Society" border="0">
@@ -41,7 +41,7 @@
 <center><b><u>SEND A SONG TO A FRIEND OR CONTACT </u></b></font></center>
 <font size="3"><font color="000000"><br>
 <br>
-Send free a song to strengthen a relationship, renew a relationship, start a new relationship, or just give someone a thought to think about. You may reap unexpected rewards, and surely you'll advance our cause. 
+Send free a song to strengthen a relationship, renew a relationship, start a new relationship, or just give someone a thought to think about. You may reap unexpected rewards, and surely you'll advance our cause.
 <br>
 <br>
 <b>Songs</b> <font size="2"> <i>(To read lyrics click on title)</i></font>
@@ -81,7 +81,7 @@ Contact us if interested.</i></font>
 	</table>
 	</td>
 	<td width="10"><img src="images/blank.gif" width="10" border="0"></td>
-    <td valign="top" width="450" align="left"> 
+    <td valign="top" width="450" align="left">
       <p><br>
 
 

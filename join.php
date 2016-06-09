@@ -1,4 +1,4 @@
-<?php 
+<?php
 $submitted = 0;
 $errmsg = "";
 if ($_REQUEST['action'] == "add") {
@@ -15,7 +15,7 @@ if ($_REQUEST['action'] == "add") {
        $organization = trim($_REQUEST['organization']);
        $zip = trim($_REQUEST['zip']);
        $email = strtolower(trim($_REQUEST['email'])); //lower case email address - case insensitive
-	
+
 	//required field check
 	if ($email == "") $errmsg .= "Please enter your e-mail address.\\n";
 	if(! preg_match("/^([a-zA-Z0-9_\.\-])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2,4})+$/", $email)) {
@@ -83,22 +83,24 @@ function validate(f) {
 </head>
 
 <body link="#666666" alink="#660000" vlink="#333333">
+  <?php include_once("analyticstracking.php") ?>
+
 <table width="720" border="0" cellspacing="0" align="center" cellpadding="0" bgcolor="#FFFFFF">
-  <tr> 
+  <tr>
     <td width="100" valign="top">
 	<table border="0" cellpadding="0" cellspacing="0" align="center">
 	<tr>
 	    <td width="100"><img src="images/blank.gif" width="1" height="85" border="0"></td>
 	</tr>
-	<?php 
+	<?php
 		include("leftmenu.html");
 	?>
 	</table>
 	</td>
     <td width="30"><img src="images/blank.gif" width="10" border="0"></td>
 	<td width="10"><img src="images/blank.gif" width="10" border="0"></td>
-    <td valign="top" width="510" align="left"> 
-<?php if ($submitted) { ?> 	
+    <td valign="top" width="510" align="left">
+<?php if ($submitted) { ?>
       <p><br>
 
 
@@ -107,7 +109,7 @@ function validate(f) {
 <br>
 <img src="images/worldpeacesociety_banner500.jpg" alt="World Peace Society" border="0">
 
-<font size="4">	 
+<font size="4">
 <br><br><br>
 <b>
 <center />
@@ -187,7 +189,7 @@ ENCOURAGE THE WORLD TO GO IN NEW DIRECTIONS</b></center></font>
 </table>
 <br>
 <br>
-<font color="000000"><b>Renewal membership is on a year-to-year basis. </b></font> 
+<font color="000000"><b>Renewal membership is on a year-to-year basis. </b></font>
 <br>
 <br>
 <table>
@@ -228,21 +230,21 @@ ENCOURAGE THE WORLD TO GO IN NEW DIRECTIONS</b></center></font>
 </table>
 <br>
 <br>
-Single - Any one person. 
+Single - Any one person.
 <br>
 <br>
-Family - Any household, including all people living at that address. 
+Family - Any household, including all people living at that address.
 <br>
 <br>
-Organization - Any organization, business, or professional group. 
+Organization - Any organization, business, or professional group.
 <br>
 <br>
-Silver - Anyone. 
+Silver - Anyone.
 <br>
 <br>
-Gold - Anyone. 
+Gold - Anyone.
 
-<br> 
+<br>
 <br>
 <br>
 Any and all contributions are welcome.
@@ -374,7 +376,7 @@ Products, services and facilities useful to us can also be accepted.
 					<option value="YT" >Yukon</option>
 				</select>
 				&nbsp;Zip:&nbsp;&nbsp;
-			    <input class="textbox" size="10" name="zipcode" value=""></td>           
+			    <input class="textbox" size="10" name="zipcode" value=""></td>
 			</tr>
 			</table>
 			</td>
@@ -384,9 +386,9 @@ Products, services and facilities useful to us can also be accepted.
 		    <td>
 				<input type="radio" name="country" value="US" checked> US Resident<br>
 				<input type="radio" name="country" value="OTHER" > Other&nbsp;
-				<input type="text" name="country_other" value="" size="20"> 
+				<input type="text" name="country_other" value="" size="20">
 			</td>
-		    
+
 		</tr>
 		<tr>
 			<td colspan="2" height="10">&nbsp;</td>
@@ -420,7 +422,7 @@ Products, services and facilities useful to us can also be accepted.
 <br>
 <br>
 <br>
-	<?php 
+	<?php
 		include("bottommenu.html");
 	?>
 
@@ -429,7 +431,7 @@ Products, services and facilities useful to us can also be accepted.
 <br>
 &copy; World Peace Society, All Rights Reserved.</span>
 </p>
-<?php 
+<?php
 	//alert error message if any
 	if ($errmsg != "") {
 ?>

@@ -8,16 +8,17 @@
 </head>
 
 <body link="#666666" alink="#660000" vlink="#333333">
+  <?php include_once("analyticstracking.php") ?>
 
 
 
 <table width="720" border="0" cellspacing="0" align="center" cellpadding="0" bgcolor="#FFFFFF">
 
 
-  <tr> 
+  <tr>
     <td width="100" valign="top">
 	<table border="0" cellpadding="0" cellspacing="0" align="center">
-	<?php 
+	<?php
 		include("leftmenu.html");
 	?>
 
@@ -29,7 +30,7 @@
     <td width="720" valign="top" align="left">
 	<table width="100%" border="0" cellpsacing="0" cellpadding="0">
 <center />
-		        
+
 <img src="images/blank.gif" width="200" height="1" alt="World Peace Society" border="0">
 <img src="images/worldpeacesociety_logo.jpg" align="center" alt="World Peace Society" border="0">
 <br>
@@ -72,7 +73,7 @@ $sql = "SELECT " .
 		"ORDER BY sign_date ASC limit 20";
 $result = mysql_query($sql);
 if ($result) {
-	while ($row = mysql_fetch_row($result)) {		
+	while ($row = mysql_fetch_row($result)) {
 		$i = 0;
 		$id = $row[$i++];
 		$first_name = $row[$i++];
@@ -121,7 +122,7 @@ mysql_close($dblink);
 	</table>
 	</td>
 	<td width="10"><img src="images/blank.gif" width="10" border="0"></td>
-    <td valign="top" width="450" align="left"> 
+    <td valign="top" width="450" align="left">
       <p><br>
 
 
@@ -133,7 +134,7 @@ mysql_close($dblink);
 <span class="footer">
 
 
-	<?php 
+	<?php
 		include("bottommenu.html");
 	?>
 

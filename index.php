@@ -24,6 +24,7 @@
 <link rel="stylesheet" href="/css/styles.css" type="text/css" media="all" title="Default">
 </head>
 <body link="#666666" alink="#660000" vlink="#333333" style="max-width: 1024px;">
+	<?php include_once("analyticstracking.php") ?>
 <table align="center" bgcolor="#FFFFFF" border="0" cellpadding="0" cellspacing="0" width="720">
 <tr>
 <td width="100" valign="top">
@@ -119,7 +120,7 @@ For thousands of years we have heard talk of peace on earth, but wars and crimes
 <span class="footer">
 
 
-	<?php 
+	<?php
 		include("bottommenu.html");
 	?>
 
